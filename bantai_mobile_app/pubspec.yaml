@@ -1,0 +1,51 @@
+name: bantai_mobile
+description: BantAI — Civic Issue Reporting, Android app (Flutter)
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # State management
+  provider: ^6.1.2
+
+  # Networking
+  dio: ^5.5.0
+  connectivity_plus: ^6.0.5
+
+  # Local/offline storage (offline report queue)
+  drift: ^2.20.1
+  sqlite3_flutter_libs: ^0.5.24
+  path_provider: ^2.1.4
+  path: ^1.9.0
+
+  # Auth token storage
+  flutter_secure_storage: ^9.2.2
+
+  # Maps / location
+  google_maps_flutter: ^2.9.0
+  geolocator: ^13.0.1
+  geocoding: ^3.0.0
+
+  # Photos
+  image_picker: ^1.1.2
+
+  # Utilities
+  uuid: ^4.5.0
+  intl: ^0.19.0
+  cached_network_image: ^3.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  drift_dev: ^2.20.1
+  build_runner: ^2.4.12
+
+flutter:
+  uses-material-design: true
